@@ -139,8 +139,7 @@ h2{
 
 footer{
     margin-top: 100px;
-    height: 30px;
-    
+    height: 30px;    
 }
 
 i{
@@ -151,4 +150,60 @@ i{
     transform: scale(1.2);
     transition: 0.2s;
     color: #fefdfd;
+}
+
+@media (max-width: 567px){
+    img{
+        width: 100px;
+    }
+    h2{
+        font-size: 0.9em;
+    }
+    .conteudo{
+        display: block;
+    }
+    #botoes{
+        padding-top: 5px;
+        width: 330px;
+        height: 60px;
+        text-align: center;
+        border: none;
+        align-items: center;
+    }
+
+    button{
+        margin-bottom: 5px;
+        margin-right: 10px;
+        font-size: 0.8em;
+    }.botao_add_lose{
+        padding: 10px;
+    }.botao_add_win{
+        padding: 10px 14px;
+    }.botao_add_sequencia{
+        padding: 10px 14px;
+        margin-top: 10px;
+        width: 150px;
+        color: #fefdfd;
+    }
+
+    #principal{
+        width: 330px;
+        text-align: start;
+    }
+    
+    .paineis{
+        margin-top: 20px;
+        background-color: #1a242d;
+        border-radius: 3px;
+    }
+
+    .container{
+        width: 98%;
+    }
+
+    footer{
+        margin-top: 30px;
+        border: 1px solid red;
+        height: 30px;    
+    }
 }
